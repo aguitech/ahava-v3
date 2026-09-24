@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a1535" />
+
+  <title>AHAVA Corporativo — Estrategia, Desarrollo y Posicionamiento de Negocios</title>
+  <meta name="description" content="+18 años transformando negocios. Especialistas en estrategia, desarrollo y posicionamiento empresarial." />
+
+  <meta property="og:title" content="AHAVA Corporativo — +18 años transformando negocios" />
+  <meta property="og:description" content="Especialistas en estrategia, desarrollo y posicionamiento de negocio." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/estrategia.jpg" />
+
+  <!-- Preload critical assets -->
+  <link rel="preload" href="assets/img/estrategia.jpg" as="image" />
+  <link rel="preload" href="assets/styles.css" as="style" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a href="#top" class="brand" aria-label="AHAVA Corporativo">
+        <img src="assets/img/logo.png" alt="AHAVA" />
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#presentacion">Presentación</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#clientes">Clientes</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contacto" class="btn-contact magnetic" data-magnetic>
+        <span>Contactar</span>
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/img/estrategia.jpg">
+          <source src="assets/videos/hero-video.mp4" type="video/mp4" />
+        </video>
+        <canvas id="particlesCanvas"></canvas>
+      </div>
+
+      <div class="hero-inner">
+        <span class="hero-badge">
+          <span class="pulse"></span>
+          <span class="star">★</span>
+          +18 años transformando negocios
+        </span>
+
+        <h1 class="hero-title">
+          Crear o Posicionar<br>
+          <span class="accent">tu Negocio</span>
+        </h1>
+
+        <p class="hero-sub">
+          Somos el resultado de +18 años de experiencia de un equipo especialista en
+          estrategia, desarrollo y posicionamiento de negocio.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#servicios" class="btn btn-primary magnetic" data-magnetic>
+            Conoce Nuestros Servicios <span class="btn-arrow">→</span>
+          </a>
+          <a href="#clientes" class="btn btn-ghost magnetic" data-magnetic>
+            ▶ Ver Casos de Éxito
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="line"></span>
+      </div>
+    </section>
+
+    <!-- =================== FILOSOFÍA =================== -->
+    <section class="section section-soft" id="presentacion">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Filosofía</span>
+          <h2 class="section-title">Amamos lo que <em> hacemos</em></h2>
+          <p class="section-lead">
+            Tres pilares que han definido cada proyecto, cada cliente, cada decisión
+            durante más de una década y media.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <article class="value-card reveal">
+            <span class="num">01</span>
+            <h3>Comprensión Estratégica</h3>
+            <p>
+              Comprendemos la industria y el negocio de nuestros clientes, para luego
+              construir negocios exitosos y relevantes que conquisten los corazones
+              más exigentes.
+            </p>
+          </article>
+
+          <article class="value-card reveal">
+            <span class="num">02</span>
+            <h3>Casos de Éxito</h3>
+            <p>
+              Cada servicio está diseñado para generar impacto real, elevar tu marca
+              y fortalecer tus resultados con métricas concretas y verificables.
+            </p>
+          </article>
+
+          <article class="value-card reveal">
+            <span class="num">03</span>
+            <h3>Resultados Comprobados</h3>
+            <p>
+              Buscamos el equilibrio entre lo funcional y lo estético, logrando durante
+              todo este tiempo el éxito de cada uno de nuestros clientes.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== SERVICIOS =================== -->
+    <section class="services-section" id="servicios">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Servicios</span>
+          <h2 class="section-title">
+            Potencia tu empresa con <em>soluciones innovadoras</em>
+          </h2>
+          <p class="section-lead">
+            Cada servicio está diseñado para generar impacto real, elevar tu marca
+            y fortalecer tus resultados.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <a class="service-card reveal" href="#contacto" aria-label="Reclutamiento y Selección">
+            <span class="service-number">01 / 06</span>
+            <div class="service-bg" style="background-image:url('assets/img/reclutamiento.jpg')"></div>
+            <div class="service-overlay"></div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <div class="service-content">
+              <span class="service-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </span>
+              <h3 class="service-title">Reclutamiento y Selección de Personal</h3>
+              <p class="service-desc">
+                Encontramos el talento ideal para cada puesto, garantizando
+                resultados excepcionales.
+              </p>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="#contacto" aria-label="Representación Comercial">
+            <span class="service-number">02 / 06</span>
+            <div class="service-bg" style="background-image:url('assets/img/estrategia.jpg')"></div>
+            <div class="service-overlay"></div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <div class="service-content">
+              <span class="service-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                  <polyline points="17 6 23 6 23 12"/>
+                </svg>
+              </span>
+              <h3 class="service-title">Representación Comercial &amp; Desarrollo de Negocio</h3>
+              <p class="service-desc">
+                Incrementa las ventas de tu empresa y crece tu marca con
+                estrategias efectivas.
+              </p>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="#contacto" aria-label="Nómina y Benefits">
+            <span class="service-number">03 / 06</span>
+            <div class="service-bg" style="background-image:url('assets/img/nomina.jpg')"></div>
+            <div class="service-overlay"></div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <div class="service-content">
+              <span class="service-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                </svg>
+              </span>
+              <h3 class="service-title">Nómina &amp; Benefits</h3>
+              <p class="service-desc">
+                Nómina, subcontratación y cumplimiento REPSE.
+              </p>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="#contacto" aria-label="Diseño de Marca y Branding">
+            <span class="service-number">04 / 06</span>
+            <div class="service-bg" style="background-image:url('assets/img/branding.jpg')"></div>
+            <div class="service-overlay"></div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <div class="service-content">
+              <span class="service-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="13.5" cy="6.5" r=".5"/>
+                  <circle cx="17.5" cy="10.5" r=".5"/>
+                  <circle cx="8.5" cy="7.5" r=".5"/>
+                  <circle cx="6.5" cy="12.5" r=".5"/>
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/>
+                </svg>
+              </span>
+              <h3 class="service-title">Diseño de Marca &amp; Branding</h3>
+              <p class="service-desc">
+                Creación, diseño y desarrollo de marca, diseño gráfico y packaging.
+              </p>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="#contacto" aria-label="Asesoría Legal">
+            <span class="service-number">05 / 06</span>
+            <div class="service-bg" style="background-image:url('assets/img/asesores.jpg')"></div>
+            <div class="service-overlay"></div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <div class="service-content">
+              <span class="service-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="3" x2="12" y2="21" transform="rotate(0)"/>
+                  <line x1="3" y1="12" x2="21" y2="12"/>
+                  <line x1="5.6" y1="5.6" x2="18.4" y2="18.4"/>
+                  <line x1="18.4" y1="5.6" x2="5.6" y2="18.4"/>
+                  <line x1="12" y1="7" x2="12" y2="17" transform="rotate(45 12 12)"/>
+                  <line x1="7" y1="12" x2="17" y2="12" transform="rotate(45 12 12)"/>
+                </svg>
+              </span>
+              <h3 class="service-title">Asesoría &amp; Defensa Legal para Empresas</h3>
+              <p class="service-desc">
+                Derecho corporativo, laboral, fiscal y mercantil.
+              </p>
+            </div>
+          </a>
+
+          <a class="service-card reveal" href="#contacto" aria-label="Promotoría y BTL">
+            <span class="service-number">06 / 06</span>
+            <div class="service-bg" style="background-image:url('assets/img/edificio.jpg')"></div>
+            <div class="service-overlay"></div>
+            <span class="service-arrow" aria-hidden="true">↗</span>
+            <div class="service-content">
+              <span class="service-icon-svg">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                  <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                  <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                </svg>
+              </span>
+              <h3 class="service-title">Promotoría y Campañas BTL</h3>
+              <p class="service-desc">
+                Deja de perder recursos y tiempo e incrementa las ventas de tu empresa.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== EXPERIENCE STRIP =================== -->
+    <section class="exp-strip">
+      <div class="container exp-strip-inner">
+        <div>
+          <span class="exp-strip-tag">+18 Años de Experiencia</span>
+          <h2>Deseas Crear o Posicionar tu <em>NEGOCIO</em></h2>
+        </div>
+        <div class="exp-strip-actions">
+          <div class="exp-service">
+            <span class="ico">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </span>
+            <div>
+              <strong>Reclutamiento &amp; Selección</strong>
+              <span>Obten al mejor talento listo para trabajar</span>
+            </div>
+          </div>
+          <a href="#contacto" class="btn btn-primary magnetic" data-magnetic>
+            Agendar Demo <span class="btn-arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== NOSOTROS =================== -->
+    <section class="section" id="nosotros">
+      <div class="container">
+        <div class="nosotros-grid">
+          <div class="nosotros-photo-wrap reveal">
+            <div class="nosotros-photo">
+              <span class="badge">Desde 2006</span>
+              <img src="assets/img/edificio.jpg" alt="Edificio AHAVA Corporativo" loading="lazy" />
+              <div class="floating-stat">
+                <div class="num">18+</div>
+                <div class="label">Años</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="nosotros-content reveal">
+            <span class="eyebrow">Nosotros</span>
+            <h2>Una historia <em>construida en 18 años</em></h2>
+            <p>
+              Más que una agencia, somos tu socio estratégico. Combinamos experiencia,
+              talento y tecnología para llevar a tu empresa al siguiente nivel. Cada
+              número cuenta una historia de partnerships exitosos.
+            </p>
+
+            <div class="stats-grid">
+              <div class="stat">
+                <div class="stat-num">18+</div>
+                <div class="stat-label">Años de Experiencia</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">20,000+</div>
+                <div class="stat-label">Clientes Satisfechos</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">500+</div>
+                <div class="stat-label">Proyectos Entregados</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">98%</div>
+                <div class="stat-label">Tasa de Éxito</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== VENTAJAS =================== -->
+    <section class="section section-dark section-tight">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Valor Diferenciador</span>
+          <h2 class="section-title">Ventajas <em>AHAVA</em></h2>
+          <p class="section-lead">
+            Cinco diferenciadores que hacen que trabajar con nosotros sea una
+            experiencia diferente.
+          </p>
+        </div>
+
+        <div class="ventajas-grid">
+          <div class="ventaja reveal">
+            <img src="assets/iconos/mexico.png" alt="" loading="lazy" />
+            <h3>Mayor Cobertura</h3>
+            <p>Todo México + Colombia + USA.</p>
+          </div>
+          <div class="ventaja reveal">
+            <img src="assets/iconos/atras-en-el-tiempo.png" alt="" loading="lazy" />
+            <h3>Tiempo de Respuesta</h3>
+            <p>Inmediata, 2 a 5 días hábiles.</p>
+          </div>
+          <div class="ventaja reveal">
+            <img src="assets/iconos/pulgar-arriba.png" alt="" loading="lazy" />
+            <h3>Resultados Reales</h3>
+            <p>¡Ganamos al Éxito!</p>
+          </div>
+          <div class="ventaja reveal">
+            <img src="assets/iconos/analitica.png" alt="" loading="lazy" />
+            <h3>Reportes a la Medida</h3>
+            <p>Creamos el reporte que tu empresa requiere.</p>
+          </div>
+          <div class="ventaja reveal">
+            <img src="assets/iconos/trabajo-en-equipo.png" alt="" loading="lazy" />
+            <h3>Mayor infraestructura</h3>
+            <p>Promotoría, Campañas BTL &amp; Reclutamiento masivo.</p>
+          </div>
+          <div class="ventaja reveal" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, rgba(0,183,215,.15), rgba(21,93,252,.10));border-color:rgba(0,183,215,.4);">
+            <a href="#contacto" class="btn btn-primary magnetic" data-magnetic style="padding:14px 24px;font-size:13px;">
+              Contactar a un Especialista <span class="btn-arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CLIENTES — MARQUEE =================== -->
+    <section class="section clientes-section" id="clientes">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Confianza</span>
+          <h2 class="section-title">Clientes que han depositado su <em>confianza</em> en nosotros</h2>
+          <p class="section-lead">
+            Empresas líderes que han confiado en nosotros para transformar su
+            gestión de talento.
+          </p>
+        </div>
+      </div>
+
+      <div class="marquee-wrap" aria-hidden="true">
+        <div class="marquee">
+          <div class="marquee-item"><img src="assets/clientes/alen.png" alt="Alen" /></div>
+          <div class="marquee-item"><img src="assets/clientes/atento.png" alt="Atento" /></div>
+          <div class="marquee-item"><img src="assets/clientes/gatorade.jpg" alt="Gatorade" /></div>
+          <div class="marquee-item"><img src="assets/clientes/justo.jpg" alt="Justo" /></div>
+          <div class="marquee-item"><img src="assets/clientes/kavak.jpeg" alt="Kavak" /></div>
+          <div class="marquee-item"><img src="assets/clientes/shp.jpg" alt="SHP" /></div>
+          <div class="marquee-item"><img src="assets/clientes/soriana.png" alt="Soriana" /></div>
+          <div class="marquee-item"><img src="assets/clientes/vips.png" alt="Vips" /></div>
+          <!-- Duplicate for seamless loop -->
+          <div class="marquee-item"><img src="assets/clientes/alen.png" alt="" /></div>
+          <div class="marquee-item"><img src="assets/clientes/atento.png" alt="" /></div>
+          <div class="marquee-item"><img src="assets/clientes/gatorade.jpg" alt="" /></div>
+          <div class="marquee-item"><img src="assets/clientes/justo.jpg" alt="" /></div>
+          <div class="marquee-item"><img src="assets/clientes/kavak.jpeg" alt="" /></div>
+          <div class="marquee-item"><img src="assets/clientes/shp.jpg" alt="" /></div>
+          <div class="marquee-item"><img src="assets/clientes/soriana.png" alt="" /></div>
+          <div class="marquee-item"><img src="assets/clientes/vips.png" alt="" /></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="clientes-cta reveal">
+          <div class="num">+50</div>
+          <p>empresas han transformado su gestión de talento con nosotros</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CONTACTO =================== -->
+    <section class="section contacto-section" id="contacto">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="eyebrow">Hablemos</span>
+          <h2 class="section-title">Hablemos sobre tu <em>proyecto</em></h2>
+          <p class="section-lead">
+            Compártenos tu visión. Nuestro equipo te brindará una respuesta
+            personalizada y estrategias concretas para hacerla realidad.
+          </p>
+        </div>
+
+        <div class="contacto-grid">
+          <div class="reveal">
+            <div class="contact-info">
+              <a class="info-card" href="mailto:rh@ahavacorporativo.com.mx">
+                <div class="info-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                    <polyline points="22,6 12,13 2,6"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="label">Correo Electrónico</div>
+                  <div class="value">rh@ahavacorporativo.com.mx</div>
+                </div>
+              </a>
+              <a class="info-card" id="phoneCard" href="#contacto">
+                <div class="info-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="label">Teléfono</div>
+                  <div class="value" id="phoneValue">+52 (55) 56 74 25 36</div>
+                </div>
+              </a>
+              <div class="info-card">
+                <div class="info-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polyline points="12 6 12 12 16 14"/>
+                  </svg>
+                </div>
+                <div>
+                  <div class="label">Horario de Atención</div>
+                  <div class="value">Lun - Vie: 9:00 AM - 6:00 PM</div>
+                </div>
+              </div>
+            </div>
+
+            <p class="contact-cta">
+              ¿Prefieres una reunión virtual? Agenda una <strong>videollamada</strong>
+              con nuestro equipo especializado.
+            </p>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="field" data-field="nombre">
+                <label for="nombre">
+                  Nombre completo <span class="req">*</span>
+                  <span class="status">✓</span>
+                </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autocomplete="name" />
+              </div>
+              <div class="field" data-field="email">
+                <label for="email">
+                  Correo electrónico <span class="req">*</span>
+                  <span class="status">✓</span>
+                </label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required autocomplete="email" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Nombre de tu empresa" autocomplete="organization" />
+              </div>
+              <div class="field">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+52 55 5555 5555" autocomplete="tel" />
+              </div>
+            </div>
+
+            <div class="field" data-field="servicio">
+              <label for="servicio">
+                Servicio de Interés <span class="req">*</span>
+                <span class="status">✓</span>
+              </label>
+              <select id="servicio" name="servicio" required>
+                <option value="">Selecciona una opción</option>
+                <option>Reclutamiento y Selección</option>
+                <option>Representación Comercial</option>
+                <option>Nómina &amp; Benefits</option>
+                <option>Diseño de Marca &amp; Branding</option>
+                <option>Asesoría Legal para Empresas</option>
+                <option>Promotoría y Campañas BTL</option>
+              </select>
+            </div>
+
+            <div class="field" data-field="mensaje">
+              <label for="mensaje">
+                Cuéntanos sobre tu proyecto <span class="req">*</span>
+                <span class="status">✓</span>
+              </label>
+              <textarea id="mensaje" name="mensaje" placeholder="¿Cómo podemos ayudarte?" required></textarea>
+            </div>
+
+            <button type="submit" class="form-submit magnetic" data-magnetic id="formSubmit">
+              <span class="spinner"></span>
+              <span class="label">Enviar Mensaje</span>
+              <span class="btn-arrow">→</span>
+            </button>
+
+            <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-brand">
+        <img src="assets/img/logo.png" alt="AHAVA" />
+        <strong>AHAVA Corporativo</strong>
+      </div>
+      <p>© <span id="year"></span> AHAVA Corporativo. Todos los derechos reservados.</p>
+      <p>Sitio desarrollado por <a href="#" rel="noopener">AGUITECH</a> · Ingeniería + Diseño + Sistemas</p>
+    </div>
+  </footer>
+
+  <script src="assets/particles.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
